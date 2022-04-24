@@ -1,55 +1,81 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+
     tools:context=".WhatIsCamsFragment">
 
-    <LinearLayout
-        android:layout_width="match_parent"
+
+    <TextView
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="10dp"
-        android:orientation="vertical">
+        android:layout_marginTop="80dp"
+        android:fontFamily="@font/radley_regular"
+        android:text="What is CAMS?"
+        android:textColor="#79C68D"
+        android:textSize="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:fontFamily="@font/radley_regular"
-            android:text="What is CAMS?"
-            android:textSize="40dp" />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_marginTop="170dp"
+        android:fontFamily="@font/radley_regular"
+        android:gravity="center"
+        android:text="CAMS is a critical asset management system developed as part of a voluntary effort, led by ARISE-US, a private-sector advisory group to the United Nations Office for Disaster Risk Reduction (UNDRR), and TerminusDB."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:fontFamily="@font/radley_regular"
-            android:gravity="center"
-            android:text="CAMS is a critical asset management system developed as part of a voluntary effort, led by ARISE-US, a private-sector advisory group to the United Nations Office for Disaster Risk Reduction (UNDRR), and TerminusDB." />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="80dp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/radley_regular"
+        android:gravity="center"
+        android:text="The project is open source and focused on providing a data-driven system to help islands, cities, and communities become disaster resilient. It does this by storing all critical asset data and the asset dependencies so a region understands not only what its critical assets are, but how one asset can impact other assets and the cascading effect of asset failures."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:fontFamily="@font/radley_regular"
-            android:gravity="center"
-            android:text="The project is open source and focused on providing a data-driven system to help islands, cities, and communities become disaster resilient. It does this by storing all critical asset data and the asset dependencies so a region understands not only what its critical assets are, but how one asset can impact other assets and the cascading effect of asset failures." />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="240dp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/radley_regular"
+        android:gravity="center"
+        android:text="CAMS is a data-driven mobile and desktop application. Government officials and first responders use it to plan and respond to disasters. The application is designed to work on and offline in the event of an incident where power and connectivity cannot be guaranteed."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:fontFamily="@font/radley_regular"
-            android:gravity="center"
-            android:text="CAMS is a data-driven mobile and desktop application. Government officials and first responders use it to plan and respond to disasters. The application is designed to work on and offline in the event of an incident where power and connectivity cannot be guaranteed." />
+        app:layout_constraintStart_toStartOf="parent" />
 
-        <TextView
-            android:id="@+id/learn_more_text"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:fontFamily="@font/radley_regular"
-            android:layout_gravity="center"
-            android:text="@string/learn_more" />
-    </LinearLayout>
+    <TextView
+        android:id="@+id/learn_more_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="#79C68D"
+        android:layout_marginBottom="204dp"
+        android:fontFamily="@font/radley_regular"
+        android:text="@string/learn_more"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.952"
+        app:layout_constraintStart_toStartOf="parent" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#79C68D"
     tools:context=".HomeFragment">
 
 
@@ -42,6 +43,8 @@
         android:text="CAMS Github Repo"
         android:drawableLeft="@drawable/ic_github"
         android:layout_marginBottom="70dp"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />

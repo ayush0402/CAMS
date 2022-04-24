@@ -1,31 +1,39 @@
 package com.example.cams
 
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.example.cams.databinding.FragmentWhatIsCamsBinding
+import android.widget.TextView
+import androidx.fragment.app.Fragment
 
 
 class WhatIsCamsFragment : Fragment() {
 
 
-    var whatIsCamsBinding: FragmentWhatIsCamsBinding? = null
+
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
 
-        whatIsCamsBinding = FragmentWhatIsCamsBinding.inflate(inflater, container, false)
+        val v= inflater.inflate(R.layout.fragment_what_is_cams, container, false)
 
 
-//        whatIsCamsBinding!!.learnMoreText.setOnClickListener { view: View? ->
-//            val action = WhatIsCamsFragmentDirections.actionWhatIsCamsFragmentToCamsInfoFragment()
-//            it.findNavController().navigate(action)
-//        }
+     val txt:TextView=v.findViewById(R.id.learn_more_text)
+        txt.setOnClickListener {
+            replaceFragment(MoreInfoFragment())
+        }
 
-        return whatIsCamsBinding?.root
+        return v
+
+    }
+    private fun replaceFragment(fragment: Fragment) {
+        val fragmentManager = parentFragmentManager
+        val fragmentTransaction = fragmentManager.beginTransaction()
+        fragmentTransaction.replace(R.id.frag, fragment)
+        fragmentTransaction.commit()
+
 
     }
 
