@@ -7,7 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 
 
-class bad : Fragment() {
+class BookADemoFragment : Fragment() {
 
 
     override fun onCreateView(
@@ -15,7 +15,7 @@ class bad : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_bad, container, false)
+        return inflater.inflate(R.layout.fragment_book_a_demo, container, false)
     }
 
 

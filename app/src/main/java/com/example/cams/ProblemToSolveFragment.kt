@@ -7,7 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 
 
-class Home : Fragment() {
+class ProblemToSolveFragment : Fragment() {
 
 
     override fun onCreateView(
@@ -15,8 +15,7 @@ class Home : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_home, container, false)
+        return inflater.inflate(R.layout.fragment_problem_to_solve, container, false)
     }
-
 
 }

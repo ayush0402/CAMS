@@ -7,15 +7,14 @@ import android.view.View
 import android.view.ViewGroup
 
 
-class vth : Fragment() {
-
+class WhatIsCamsFragment : Fragment() {
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_vth, container, false)
+        return inflater.inflate(R.layout.fragment_what_is_cams, container, false)
     }
 
 

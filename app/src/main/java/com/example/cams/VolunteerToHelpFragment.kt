@@ -7,14 +7,15 @@ import android.view.View
 import android.view.ViewGroup
 
 
-class wic : Fragment() {
+class VolunteerToHelpFragment : Fragment() {
+
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_wic, container, false)
+        return inflater.inflate(R.layout.fragment_volunteer_too_help, container, false)
     }
 
 

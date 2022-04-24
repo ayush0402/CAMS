@@ -1,10 +1,7 @@
 package com.example.cams
 
-import android.content.Intent
-import android.net.Uri
 import android.os.Bundle
 import android.view.MenuItem
-import android.widget.Toast
 import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.drawerlayout.widget.DrawerLayout
@@ -27,19 +24,19 @@ class MainActivity : AppCompatActivity() {
             it.isChecked=true
             when (it.itemId) {
                 R.id.home->{
-                    replaceFragment(Home())
+                    replaceFragment(HomeFragment())
                 }
                 R.id.pos -> {
-                    replaceFragment(pos())
+                    replaceFragment(ProblemToSolveFragment())
                 }
                 R.id.wic -> {
-                    replaceFragment(wic())
+                    replaceFragment(WhatIsCamsFragment())
                 }
                 R.id.vth -> {
-                    replaceFragment(vth())
+                    replaceFragment(VolunteerToHelpFragment())
                 }
                 R.id.bad -> {
-                    replaceFragment(bad())
+                    replaceFragment(BookADemoFragment())
                 }
             }
             true
