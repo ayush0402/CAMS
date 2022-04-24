@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/grp1"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:title="Home" />
+        <item
+            android:id="@+id/pos"
+            android:title="Problem to solve" />
+        <item
+            android:id="@+id/wic"
+            android:title="What is CAMS?" />
+        <item
+            android:id="@+id/vth"
+            android:title="Volunteer to Help" />
+        <item
+            android:id="@+id/bad"
+            android:title="Book a Demo" />
+
+    </group>
+</menu>
