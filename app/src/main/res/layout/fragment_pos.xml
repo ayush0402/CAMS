@@ -1,14 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".pos">
 
-    <!-- TODO: Update blank fragment layout -->
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The problem to solve"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="50dp"
+        android:textSize="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
 
-</FrameLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginBottom="150dp"
+
+        android:text="The world is warming and although the Paris Agreement aims to limit global warming to well below 2°C, faith in the world’s leaders to deliver on these promises is rice paper thin. The stark reality is that by 2060 the world could be 3-6°C warmer. This means more cataclysmic weather events – both in terms of violence and frequency."
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="100dp"
+        android:text="The world is warming and although the Paris Agreement aims to limit global warming to well below 2°C, faith in the world’s leaders to deliver on these promises is rice paper thin. The stark reality is that by 2060 the world could be 3-6°C warmer. This means more cataclysmic weather events – both in terms of violence and frequency."
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="350dp"
+        android:text="The world is warming and although the Paris Agreement aims to limit global warming to well below 2°C, faith in the world’s leaders to deliver on these promises is rice paper thin. The stark reality is that by 2060 the world could be 3-6°C warmer. This means more cataclysmic weather events – both in terms of violence and frequency."
+
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
