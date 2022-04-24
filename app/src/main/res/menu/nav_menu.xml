@@ -15,9 +15,6 @@
         <item
             android:id="@+id/vth"
             android:title="Volunteer to Help" />
-        <item
-            android:id="@+id/bad"
-            android:title="Book a Demo" />
 
     </group>
 </menu>

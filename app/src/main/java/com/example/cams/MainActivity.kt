@@ -35,9 +35,7 @@ class MainActivity : AppCompatActivity() {
                 R.id.vth -> {
                     replaceFragment(VolunteerToHelpFragment())
                 }
-                R.id.bad -> {
-                    replaceFragment(BookADemoFragment())
-                }
+
             }
             true
         }
