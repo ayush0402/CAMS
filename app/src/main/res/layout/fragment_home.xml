@@ -36,9 +36,10 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
+        android:id="@+id/camsgithub"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="CAM Github Repo"
+        android:text="CAMS Github Repo"
         android:drawableLeft="@drawable/ic_github"
         android:layout_marginBottom="70dp"
         app:layout_constraintBottom_toBottomOf="parent"
