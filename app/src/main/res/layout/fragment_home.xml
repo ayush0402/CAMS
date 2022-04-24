@@ -15,6 +15,7 @@
         android:text="Building climate resilience for those who need it"
         android:textSize="40dp"
         app:layout_constraintEnd_toEndOf="parent"
+        android:fontFamily="@font/radley_regular"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -25,6 +26,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="200dp"
+        android:fontFamily="@font/radley_regular"
         android:gravity="center"
         android:text="An open-source project for good. Helping nations, cities, and communities use local knowledge with cutting edge technology to become climate resilient."
         android:textSize="30dp"

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -10,12 +11,54 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
         android:text="What is CAMS?"
         android:textSize="40dp"
-        android:layout_marginTop="10dp"
-        app:layout_constraintTop_toTopOf="parent"
+        android:fontFamily="@font/radley_regular"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CAMS is a critical asset management system developed as part of a voluntary effort, led by ARISE-US, a private-sector advisory group to the United Nations Office for Disaster Risk Reduction (UNDRR), and TerminusDB."
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:fontFamily="@font/radley_regular"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/radley_regular"
+        android:text="The project is open source and focused on providing a data-driven system to help islands, cities, and communities become disaster resilient. It does this by storing all critical asset data and the asset dependencies so a region understands not only what its critical assets are, but how one asset can impact other assets and the cascading effect of asset failures."
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="200dp"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CAMS is a data-driven mobile and desktop application. Government officials and first responders use it to plan and respond to disasters. The application is designed to work on and offline in the event of an incident where power and connectivity cannot be guaranteed."
+        app:layout_constraintTop_toTopOf="parent"
+        android:fontFamily="@font/radley_regular"
+        android:layout_marginTop="325dp"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"></TextView>
+
+
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
