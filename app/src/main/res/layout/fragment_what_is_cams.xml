@@ -1,98 +1,128 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/background_grey"
+    android:orientation="vertical"
     tools:context=".WhatIsCamsFragment">
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="80dp"
-        android:fontFamily="@font/radley_regular"
-        android:text="What is CAMS?"
-        android:textColor="#79C68D"
-        android:textSize="40dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
 
+            <TextView
+                android:layout_marginTop="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/radley_regular"
+                android:text="What is CAMS?"
+                android:textColor="#79C68D"
+                android:textSize="40dp" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textColor="@color/silver"
-        android:paddingLeft="10dp"
-        android:paddingRight="10dp"
-        android:layout_marginTop="170dp"
-        android:fontFamily="@font/radley_regular"
-        android:gravity="center"
-        android:text="CAMS is a critical asset management system developed as part of a voluntary effort, led by ARISE-US, a private-sector advisory group to the United Nations Office for Disaster Risk Reduction (UNDRR), and TerminusDB."
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="80dp"
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:src="@drawable/line" />
 
-        android:textColor="@color/silver"
-        android:paddingLeft="10dp"
-        android:paddingRight="10dp"
-        android:fontFamily="@font/radley_regular"
-        android:gravity="center"
-        android:text="The project is open source and focused on providing a data-driven system to help islands, cities, and communities become disaster resilient. It does this by storing all critical asset data and the asset dependencies so a region understands not only what its critical assets are, but how one asset can impact other assets and the cascading effect of asset failures."
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:src="@drawable/line" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="240dp"
-        android:textColor="@color/silver"
-        android:fontFamily="@font/radley_regular"
-        android:paddingLeft="10dp"
-        android:paddingRight="10dp"
-        android:gravity="center"
-        android:text="CAMS is a data-driven mobile and desktop application. Government officials and first responders use it to plan and respond to disasters. The application is designed to work on and offline in the event of an incident where power and connectivity cannot be guaranteed."
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:src="@drawable/line" />
 
-    <TextView
-        android:id="@+id/learn_more_text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:paddingRight="10dp"
-        android:textColor="#79C68D"
-        android:layout_marginBottom="204dp"
-        android:fontFamily="@font/radley_regular"
-        android:text="@string/learn_more"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.952"
-        app:layout_constraintStart_toStartOf="parent" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:src="@drawable/line" />
 
-    <WebView
-        android:id="@+id/video"
-        android:layout_width="300dp"
-        android:layout_height="180dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        android:layout_marginBottom="10dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"></WebView>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:src="@drawable/line" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:src="@drawable/line" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:src="@drawable/line" />
+            </LinearLayout>
 
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/radley_regular"
+                android:gravity="center"
+                android:justificationMode="inter_word"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="CAMS is a critical asset management system developed as part of a voluntary effort, led by ARISE-US, a private-sector advisory group to the United Nations Office for Disaster Risk Reduction (UNDRR), and TerminusDB."
+                android:textColor="@color/silver" />
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                android:fontFamily="@font/radley_regular"
+                android:gravity="center"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="The project is open source and focused on providing a data-driven system to help islands, cities, and communities become disaster resilient. It does this by storing all critical asset data and the asset dependencies so a region understands not only what its critical assets are, but how one asset can impact other assets and the cascading effect of asset failures."
+                android:textColor="@color/silver" />
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/radley_regular"
+                android:gravity="center"
+                android:justificationMode="inter_word"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="CAMS is a data-driven mobile and desktop application. Government officials and first responders use it to plan and respond to disasters. The application is designed to work on and offline in the event of an incident where power and connectivity cannot be guaranteed."
+                android:textColor="@color/silver" />
+
+            <TextView
+                android:id="@+id/learn_more_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginRight="20dp"
+                android:fontFamily="@font/radley_regular"
+                android:paddingRight="10dp"
+                android:text="@string/learn_more"
+                android:textColor="#79C68D" />
+
+            <WebView
+                android:layout_marginTop="20dp"
+                android:id="@+id/video"
+                android:layout_width="300dp"
+                android:layout_height="180dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

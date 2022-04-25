@@ -17,18 +17,12 @@
             android:layout_height="match_parent"
             android:orientation="vertical">
 
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="250dp"
-                android:padding="20dp"
-                android:src="@drawable/problemtosolve" />
-
             <TextView
                 android:id="@+id/textView2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:layout_margin="10dp"
+                android:layout_marginTop="20dp"
                 android:fontFamily="@font/radley_regular"
                 android:gravity="center"
                 android:text="The problem to solve"
@@ -82,6 +76,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginTop="20dp"
+                android:justificationMode="inter_word"
                 android:fontFamily="@font/radley_regular"
                 android:gravity="center"
                 android:padding="10dp"
@@ -90,11 +85,17 @@
                 android:textColor="@color/silver"
                 app:layout_constraintLeft_toLeftOf="parent" />
 
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="250dp"
+                android:padding="20dp"
+                android:src="@drawable/problemtosolve" />
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginTop="40dp"
+                android:justificationMode="inter_word"
                 android:fontFamily="@font/radley_regular"
                 android:gravity="center"
                 android:padding="10dp"
@@ -110,6 +111,7 @@
                 android:fontFamily="@font/radley_regular"
                 android:gravity="center"
                 android:padding="10dp"
+                android:justificationMode="inter_word"
                 android:paddingVertical="20dp"
                 android:text="CAMS is an open-source voluntary project providing a system to help these regions identify their critical assets and the cascading failure chains should one of them fail. The goal is to help regions plan and respond to inevitable disasters to save lives and rebuild faster."
                 android:textColor="@color/silver" />
