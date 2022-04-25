@@ -113,6 +113,18 @@
                 android:paddingVertical="20dp"
                 android:text="CAMS is an open-source voluntary project providing a system to help these regions identify their critical assets and the cascading failure chains should one of them fail. The goal is to help regions plan and respond to inevitable disasters to save lives and rebuild faster."
                 android:textColor="@color/silver" />
+
+            <TextView
+                android:id="@+id/lear_more_pts"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="More Info"
+                android:gravity="center"
+                android:textColor="@color/cams_green"
+
+                >
+
+            </TextView>
         </LinearLayout>
     </ScrollView>
 </LinearLayout>
