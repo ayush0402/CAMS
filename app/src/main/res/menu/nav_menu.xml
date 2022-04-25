@@ -5,15 +5,20 @@
         android:checkableBehavior="single">
         <item
             android:id="@+id/home"
+            android:icon="@drawable/ic_home"
             android:title="Home" />
         <item
-            android:id="@+id/pos"
-            android:title="Problem to solve" />
-        <item
             android:id="@+id/wic"
+            android:icon="@drawable/ic_what"
             android:title="What is CAMS?" />
         <item
+            android:id="@+id/pos"
+            android:icon="@drawable/ic_problem"
+            android:title="Problem to solve" />
+
+        <item
             android:id="@+id/vth"
+            android:icon="@drawable/ic_volunteer"
             android:title="Volunteer to Help" />
 
     </group>
