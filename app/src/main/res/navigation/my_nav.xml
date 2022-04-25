@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/home">
+
+    <fragment
+        android:id="@+id/home"
+        android:name="com.example.cams.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/wic"
+        android:name="com.example.cams.WhatIsCamsFragment"
+        android:label="fragment_what_is_cams"
+        tools:layout="@layout/fragment_what_is_cams" />
+    <fragment
+        android:id="@+id/vth"
+        android:name="com.example.cams.VolunteerToHelpFragment"
+        android:label="fragment_volunteer_too_help"
+        tools:layout="@layout/fragment_volunteer_too_help" />
+    <fragment
+        android:id="@+id/pos"
+        android:name="com.example.cams.ProblemToSolveFragment"
+        android:label="fragment_problem_to_solve"
+        tools:layout="@layout/fragment_problem_to_solve" />
+</navigation>

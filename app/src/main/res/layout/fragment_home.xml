@@ -4,48 +4,57 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#79C68D"
+    android:background="@color/background_grey"
     tools:context=".HomeFragment">
 
+    <ImageView
+        android:id="@+id/logoimage"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:src="@drawable/camslarge"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
+        android:id="@+id/textheading"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="88dp"
         android:fontFamily="@font/radley_regular"
         android:gravity="center"
         android:text="Building climate resilience for those who need it"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:textSize="40dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/logoimage" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="200dp"
         android:fontFamily="@font/radley_regular"
         android:gravity="center"
-        android:textColor="@color/black"
+        android:padding="10dp"
         android:text="An open-source project for good. Helping nations, cities, and communities use local knowledge with cutting edge technology to become climate resilient."
+        android:textColor="@color/silver"
         android:textSize="30dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/camsgithub"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textheading" />
 
     <Button
         android:id="@+id/camsgithub"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="CAMS Github Repo"
-        android:drawableLeft="@drawable/ic_github"
         android:layout_marginBottom="70dp"
-        android:textColor="@color/black"
         android:backgroundTint="@color/white"
+        android:drawableLeft="@drawable/ic_github"
+        android:text="CAMS Github Repo"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
