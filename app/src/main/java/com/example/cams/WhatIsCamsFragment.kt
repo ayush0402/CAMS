@@ -5,8 +5,6 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.webkit.WebView
-import android.webkit.WebViewClient
 import android.widget.MediaController
 import android.widget.TextView
 import android.widget.VideoView
@@ -23,38 +21,17 @@ class WhatIsCamsFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
 
-        val v= inflater.inflate(R.layout.fragment_what_is_cams, container, false)
-        val frameVideo =
-            "<html><body><br><iframe width=\"300\" height=\"180\" src=\"https://youtu.be/-sXjuuuvJAE\" frameborder=\"0\" allowfullscreen></iframe></body></html>"
-
-        val displayYoutubeVideo = v.findViewById(R.id.video) as WebView
-        displayYoutubeVideo.clearSslPreferences()
-        displayYoutubeVideo.webViewClient = object : WebViewClient() {
-            override fun shouldOverrideUrlLoading(view: WebView, url: String): Boolean {
-                return false
-            }
-        }
-        val webSettings = displayYoutubeVideo.settings
-        webSettings.javaScriptEnabled = true
-        displayYoutubeVideo.loadData(frameVideo, "text/html", "utf-8")
-
-
-     val txt:TextView=v.findViewById(R.id.learn_more_text)
+        val v = inflater.inflate(R.layout.fragment_what_is_cams, container, false)
+        val txt: TextView = v.findViewById(R.id.learn_more_text)
         txt.setOnClickListener {
             replaceFragment(MoreInfoFragment())
         }
-
         return v
-
     }
     private fun replaceFragment(fragment: Fragment) {
         val fragmentManager = parentFragmentManager
         val fragmentTransaction = fragmentManager.beginTransaction()
         fragmentTransaction.replace(R.id.my_frag, fragment)
         fragmentTransaction.commit()
-
-
     }
-
-
 }

@@ -110,19 +110,20 @@
                 android:id="@+id/learn_more_text"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="right"
-                android:layout_marginRight="20dp"
+                android:layout_gravity="end"
+                android:layout_marginVertical="20dp"
+                android:layout_marginEnd="20dp"
                 android:fontFamily="@font/radley_regular"
                 android:paddingRight="10dp"
                 android:text="@string/learn_more"
                 android:textColor="#79C68D" />
 
-            <WebView
-                android:layout_marginTop="20dp"
-                android:id="@+id/video"
-                android:layout_width="300dp"
-                android:layout_height="180dp"/>
-
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:id="@+id/youtube_player_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:autoPlay="true"
+                app:videoId="-sXjuuuvJAE" />
         </LinearLayout>
     </ScrollView>
 </LinearLayout>
