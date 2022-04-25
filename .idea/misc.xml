@@ -16,12 +16,17 @@
         <entry key="..\:/hackofesta/CAMS/CAMS/app/src/main/res/layout/fragment_wic.xml" value="0.18489583333333334" />
         <entry key="..\:/hackofesta/CAMS/CAMS/app/src/main/res/layout/nav_header.xml" value="0.18489583333333334" />
         <entry key="..\:/hackofesta/CAMS/CAMS/app/src/main/res/menu/nav_menu.xml" value="0.18489583333333334" />
+        <entry key="..\:/hackofesta/CAMS/cams2/CAMS/app/src/main/res/drawable/app_icon_cams_background.xml" value="0.143" />
+        <entry key="..\:/hackofesta/CAMS/cams2/CAMS/app/src/main/res/drawable/app_icon_cams_foreground.xml" value="0.143" />
         <entry key="..\:/hackofesta/CAMS/cams2/CAMS/app/src/main/res/layout/activity_main.xml" value="0.18489583333333334" />
+        <entry key="..\:/hackofesta/CAMS/cams2/CAMS/app/src/main/res/layout/activity_splashscreen.xml" value="0.18489583333333334" />
         <entry key="..\:/hackofesta/CAMS/cams2/CAMS/app/src/main/res/layout/fragment_home.xml" value="0.18489583333333334" />
         <entry key="..\:/hackofesta/CAMS/cams2/CAMS/app/src/main/res/layout/fragment_more_info.xml" value="0.25" />
         <entry key="..\:/hackofesta/CAMS/cams2/CAMS/app/src/main/res/layout/fragment_problem_to_solve.xml" value="0.1" />
         <entry key="..\:/hackofesta/CAMS/cams2/CAMS/app/src/main/res/layout/fragment_problem_to_solve_learn_more.xml" value="0.18489583333333334" />
-        <entry key="..\:/hackofesta/CAMS/cams2/CAMS/app/src/main/res/layout/fragment_what_is_cams.xml" value="0.1" />
+        <entry key="..\:/hackofesta/CAMS/cams2/CAMS/app/src/main/res/layout/fragment_what_is_cams.xml" value="0.375" />
+        <entry key="..\:/hackofesta/CAMS/cams2/CAMS/app/src/main/res/mipmap-anydpi-v26/app_icon_cams.xml" value="0.143" />
+        <entry key="..\:/hackofesta/CAMS/cams2/CAMS/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.143" />
       </map>
     </option>
   </component>
