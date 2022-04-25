@@ -4,13 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#79C68D"
+    android:background="@color/background_grey"
     tools:context=".VolunteerToHelpFragment">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="@color/white"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
         android:fontFamily="@font/radley_regular"
         android:text="Are you interested in helping? We'd love to welcome you to contribute."
         android:textSize="30dp"
@@ -26,7 +28,9 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/radley_regular"
         android:layout_marginTop="200dp"
-        android:textColor="@color/white"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textColor="@color/silver"
         android:textSize="16dp"
         android:gravity="center"
         android:text="If you’re interested in helping good people, learning new technologies, and working with other like-minded folks, volunteer for the CAMS open-source project. We’re seeking backend and frontend developers, marketing professionals, and anyone else interested in spreading the word about it."

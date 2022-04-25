@@ -1,66 +1,99 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#393939"
+    android:background="@color/background_grey"
+    android:orientation="vertical"
     tools:context=".ProblemToSolveFragment">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="The problem to solve"
-        app:layout_constraintTop_toTopOf="parent"
-        android:fontFamily="@font/radley_regular"
-        android:layout_marginTop="50dp"
-        android:textSize="40dp"
-        android:gravity="center"
-        android:textColor="#79C68D"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintRight_toRightOf="parent"
-        android:fontFamily="@font/radley_regular"
-        android:textColor="@color/white"
-        android:gravity="center"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginBottom="150dp"
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
 
-        android:text="The world is warming and although the Paris Agreement aims to limit global warming to well below 2°C, faith in the world’s leaders to deliver on these promises is rice paper thin. The stark reality is that by 2060 the world could be 3-6°C warmer. This means more cataclysmic weather events – both in terms of violence and frequency."
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="250dp"
+                android:src="@drawable/problemtosolve"
+                android:padding="20dp"/>
 
-        />
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintRight_toRightOf="parent"
-        android:textColor="@color/white"
-        app:layout_constraintLeft_toLeftOf="parent"
-        android:gravity="center"
-        app:layout_constraintBottom_toBottomOf="parent"
-        android:fontFamily="@font/radley_regular"
-        app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginTop="100dp"
-        android:text="Many island nations, cities, and communities, who themselves are victims of humanity’s lack of foresight, are the ones who will be impacted the most by extreme weather events."
-        />
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintRight_toRightOf="parent"
-        android:fontFamily="@font/radley_regular"
-        android:textColor="@color/white"
-        android:gravity="center"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginTop="350dp"
-        android:text="CAMS is an open-source voluntary project providing a system to help these regions identify their critical assets and the cascading failure chains should one of them fail. The goal is to help regions plan and respond to inevitable disasters to save lives and rebuild faster."
-        />
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/radley_regular"
+                android:gravity="center"
+                android:text="The problem to solve"
+                android:textColor="#79C68D"
+                android:textSize="40dp" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:src="@drawable/line"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:src="@drawable/line"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:src="@drawable/line"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:src="@drawable/line"/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/radley_regular"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:padding="10dp"
+                android:paddingVertical="20dp"
+                android:text="The world is warming and although the Paris Agreement aims to limit global warming to well below 2°C, faith in the world’s leaders to deliver on these promises is rice paper thin. The stark reality is that by 2060 the world could be 3-6°C warmer. This means more cataclysmic weather events – both in terms of violence and frequency."
+                android:textColor="@color/silver"
+                app:layout_constraintLeft_toLeftOf="parent" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="40dp"
+                android:fontFamily="@font/radley_regular"
+                android:gravity="center"
+                android:padding="10dp"
+                android:paddingVertical="20dp"
+                android:text="Many island nations, cities, and communities, who themselves are victims of humanity’s lack of foresight, are the ones who will be impacted the most by extreme weather events."
+                android:textColor="@color/silver" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/radley_regular"
+                android:gravity="center"
+                android:layout_marginTop="40dp"
+                android:padding="10dp"
+                android:paddingVertical="20dp"
+                android:text="CAMS is an open-source voluntary project providing a system to help these regions identify their critical assets and the cascading failure chains should one of them fail. The goal is to help regions plan and respond to inevitable disasters to save lives and rebuild faster."
+                android:textColor="@color/silver" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
