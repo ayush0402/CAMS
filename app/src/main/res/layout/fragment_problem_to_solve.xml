@@ -13,15 +13,15 @@
         android:layout_height="wrap_content">
 
         <LinearLayout
-            android:orientation="vertical"
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:orientation="vertical">
 
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="250dp"
-                android:src="@drawable/problemtosolve"
-                android:padding="20dp"/>
+                android:padding="20dp"
+                android:src="@drawable/problemtosolve" />
 
             <TextView
                 android:id="@+id/textView2"
@@ -36,35 +36,54 @@
                 android:textSize="40dp" />
 
             <LinearLayout
-                android:orientation="horizontal"
-                android:gravity="center"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="50dp"
-                    android:src="@drawable/line"/>
+                    android:src="@drawable/line" />
+
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="50dp"
-                    android:src="@drawable/line"/>
+                    android:src="@drawable/line" />
+
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="50dp"
-                    android:src="@drawable/line"/>
+                    android:src="@drawable/line" />
+
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="50dp"
-                    android:src="@drawable/line"/>
+                    android:src="@drawable/line" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:src="@drawable/line" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:src="@drawable/line" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:src="@drawable/line" />
             </LinearLayout>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
+                android:layout_marginTop="20dp"
                 android:fontFamily="@font/radley_regular"
                 android:gravity="center"
-                android:layout_marginTop="20dp"
                 android:padding="10dp"
                 android:paddingVertical="20dp"
                 android:text="The world is warming and although the Paris Agreement aims to limit global warming to well below 2°C, faith in the world’s leaders to deliver on these promises is rice paper thin. The stark reality is that by 2060 the world could be 3-6°C warmer. This means more cataclysmic weather events – both in terms of violence and frequency."
@@ -87,9 +106,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
+                android:layout_marginTop="40dp"
                 android:fontFamily="@font/radley_regular"
                 android:gravity="center"
-                android:layout_marginTop="40dp"
                 android:padding="10dp"
                 android:paddingVertical="20dp"
                 android:text="CAMS is an open-source voluntary project providing a system to help these regions identify their critical assets and the cascading failure chains should one of them fail. The goal is to help regions plan and respond to inevitable disasters to save lives and rebuild faster."
