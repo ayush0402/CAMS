@@ -63,6 +63,7 @@
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
                     android:layout_marginTop="20dp"
+                    android:justificationMode="inter_word"
                     android:text="@string/where_the_cams_project_started_desc"
                     android:textSize="15dp" />
 
@@ -89,6 +90,7 @@
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
                     android:layout_marginTop="20dp"
+                    android:justificationMode="inter_word"
                     android:text="@string/will_we_achieve_the_paris_agreement_targets_desc"
                     android:textSize="15dp" />
 
@@ -106,6 +108,7 @@
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
                     android:layout_marginTop="20dp"
+                    android:justificationMode="inter_word"
                     android:text="@string/the_problem_we_re_solving_desc"
                     android:textSize="15dp" />
 

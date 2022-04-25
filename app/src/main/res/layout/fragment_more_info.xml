@@ -74,6 +74,7 @@
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
                     android:textColor="@color/silver"
+                    android:justificationMode="inter_word"
                     android:layout_marginTop="20dp"
                     android:text="@string/open_source_for_good_desc"
                     android:textSize="15dp" />
@@ -93,6 +94,7 @@
                     android:layout_margin="10dp"
                     android:layout_marginTop="20dp"
                     android:textColor="@color/silver"
+                    android:justificationMode="inter_word"
                     android:text="@string/a_top_level_view_of_cams_desc"
                     android:textSize="15dp" />
 
@@ -111,6 +113,7 @@
                     android:layout_margin="10dp"
                     android:layout_marginTop="20dp"
                     android:textColor="@color/silver"
+                    android:justificationMode="inter_word"
                     android:text="@string/technology_desc"
                     android:textSize="15dp" />
 
