@@ -29,12 +29,13 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
+                android:gravity="center"
                 android:layout_marginTop="10dp"
                 android:fontFamily="@font/radley_regular"
                 android:padding="10dp"
-                android:text="Building climate resilience for those who need it"
+                android:text="@string/building_climate_resilience_for_those_who_need_it"
                 android:textColor="@color/white"
-                android:textSize="30dp" />
+                android:textSize="30sp" />
 
             <ImageView
                 android:layout_width="wrap_content"
@@ -51,7 +52,7 @@
                 android:gravity="center"
                 android:justificationMode="inter_word"
                 android:padding="20dp"
-                android:text="An open-source project for good. Helping nations, cities, and communities use local knowledge with cutting edge technology to become climate resilient."
+                android:text="@string/an_open_source_project_desc"
                 android:textColor="@color/silver"
                 android:textSize="16dp" />
 
@@ -62,8 +63,8 @@
                 android:layout_gravity="center"
                 android:layout_marginBottom="20dp"
                 android:backgroundTint="@color/white"
-                android:drawableLeft="@drawable/ic_github"
-                android:text="CAMS Github Repo"
+                android:drawableStart="@drawable/ic_github"
+                android:text="@string/cams_github_repo"
                 android:textColor="@color/black" />
         </LinearLayout>
     </ScrollView>
