@@ -16,11 +16,22 @@
         <entry key="..\:/hackofesta/CAMS/CAMS/app/src/main/res/layout/fragment_wic.xml" value="0.18489583333333334" />
         <entry key="..\:/hackofesta/CAMS/CAMS/app/src/main/res/layout/nav_header.xml" value="0.18489583333333334" />
         <entry key="..\:/hackofesta/CAMS/CAMS/app/src/main/res/menu/nav_menu.xml" value="0.18489583333333334" />
-        <entry key="..\:/hackofesta/CAMS/cams2/CAMS/app/src/main/res/layout/activity_main.xml" value="0.18489583333333334" />
-        <entry key="..\:/hackofesta/CAMS/cams2/CAMS/app/src/main/res/layout/fragment_more_info.xml" value="0.25" />
-        <entry key="..\:/hackofesta/CAMS/cams2/CAMS/app/src/main/res/layout/fragment_problem_to_solve.xml" value="0.1" />
-        <entry key="..\:/hackofesta/CAMS/cams2/CAMS/app/src/main/res/layout/fragment_problem_to_solve_learn_more.xml" value="0.18489583333333334" />
-        <entry key="..\:/hackofesta/CAMS/cams2/CAMS/app/src/main/res/layout/fragment_what_is_cams.xml" value="0.1" />
+        <entry key="..\:/hackofiesta/CAMS/app/src/main/res/drawable/ic_launcher_background.xml" value="0.107" />
+        <entry key="..\:/hackofiesta/CAMS/app/src/main/res/drawable/ic_problem.xml" value="0.202" />
+        <entry key="..\:/hackofiesta/CAMS/app/src/main/res/drawable/ic_question.xml" value="0.202" />
+        <entry key="..\:/hackofiesta/CAMS/app/src/main/res/drawable/ic_volunteer.xml" value="0.202" />
+        <entry key="..\:/hackofiesta/CAMS/app/src/main/res/drawable/line.xml" value="0.202" />
+        <entry key="..\:/hackofiesta/CAMS/app/src/main/res/drawable/problemtosolve.xml" value="0.202" />
+        <entry key="..\:/hackofiesta/CAMS/app/src/main/res/drawable/volunteering.xml" value="0.107" />
+        <entry key="..\:/hackofiesta/CAMS/app/src/main/res/drawable/world_is_mine.xml" value="0.107" />
+        <entry key="..\:/hackofiesta/CAMS/app/src/main/res/layout/activity_main.xml" value="0.1490036231884058" />
+        <entry key="..\:/hackofiesta/CAMS/app/src/main/res/layout/fragment_home.xml" value="0.14447463768115942" />
+        <entry key="..\:/hackofiesta/CAMS/app/src/main/res/layout/fragment_more_info.xml" value="0.1490036231884058" />
+        <entry key="..\:/hackofiesta/CAMS/app/src/main/res/layout/fragment_problem_to_solve.xml" value="0.2" />
+        <entry key="..\:/hackofiesta/CAMS/app/src/main/res/layout/fragment_problem_to_solve_learn_more.xml" value="0.19635416666666666" />
+        <entry key="..\:/hackofiesta/CAMS/app/src/main/res/layout/fragment_volunteer_too_help.xml" value="0.1490036231884058" />
+        <entry key="..\:/hackofiesta/CAMS/app/src/main/res/layout/fragment_what_is_cams.xml" value="0.1490036231884058" />
+        <entry key="..\:/hackofiesta/CAMS/app/src/main/res/layout/nav_header.xml" value="0.1" />
       </map>
     </option>
   </component>
