@@ -32,6 +32,7 @@
                 android:layout_marginTop="10dp"
                 android:fontFamily="@font/radley_regular"
                 android:padding="10dp"
+                android:gravity="center"
                 android:text="Building climate resilience for those who need it"
                 android:textColor="@color/white"
                 android:textSize="30dp" />
